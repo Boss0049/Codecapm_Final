@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<butto lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>B_Boss Tanatepon</title>
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet" />
+        <!-- font-icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+        <!-- jquery plugin -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="jquery/jquery.ckLine.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <!-- css file -->
+        <link rel="stylesheet" href="/css/main.css" />
+    </head>
+
+    <body onload="myFunction()">
+        <div class="container" id="style">
+            <div class="text">
+                <h1>MY RESUME</h1>
+                <span style="font-size: 48px; margin-left: 10px;">
+                    <i class="fas fa-address-card"></i>
+                </span>
+                <span class="text2 animated flash anime">
+                    <span id="blink" >
+                        <i class="far fa-lightbulb"></i>
+                    </span>
+                </span>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="/img/pic.jpg" />
+                </div>
+                <div class="column1">
+                    <div class="name">
+                        <h2>Name :</h2>
+                        <input type="text" placeholder="What is your name" value="Tanatepon Kulrattanarak">
+                    </div>
+                    <div class="name">
+                        <h2>Nickname :</h2>
+                        <h3 id="name">Boss</h3>
+                    </div>
+                    <div class="name">
+                        <h2>Education :</h2>
+                        <h3 id="name">CMM KMUTT</h3>
+                    </div>
+                    <div class="name">
+                        <h2>E-mail :</h2>
+                        <h3 id="name">B-Bossza@homail.co.th</h3>
+                    </div>
+                    <p class="skill">
+                        <h2>Skills </h2>
+                        <input id="hello" type="text" placeholder="Enter new skill">
+                        <span class="trash">
+                            <i id="btnAdd1" class="fas fa-plus"></i>
+                        </span>
+                        <span class="trash">
+                            <i id="btnRemove" class="far fa-trash-alt" onclick="alert('Success')"></i>
+                        </span>
+                        <div class = "lish">
+                            <h3>
+                                <ul id="Skill">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </h3>
+                        </div>
+                    </p>
+                </div>
+            </div>
+
+            <div class="input">
+                <a href="https://facebook.com" class="facebook" target="_blank" style="font-size: 48px;">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/?hl=th" class="ig" target="_blank" style="font-size: 48px;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/" class="twitter" target="_blank" style="font-size: 48px;">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <svg id="ckLine" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000"></svg>
+        <svg id="ckLine1" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000"></svg>
+        <script src="/js/main.js"></script>
+    </body>
+
+    </html>
