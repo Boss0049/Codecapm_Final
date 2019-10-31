@@ -1,0 +1,57 @@
+@media (max-width: 1024px) {
+    .container {
+        margin: 3% 5% 3% 5%;
+        position: absolute;
+        z-index: 99;
+        width: 90%;
+        height: 97%;
+        background-color: rgba(000, 000, 000, 1);
+        color: #FFF;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-radius: 0% 0% 0% 0%;
+    }
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        width: auto;
+        height: 200px;
+        border-radius: 100% 50% 100% 50%;
+    }
+    .column1 {
+        width: 100%;
+        text-align: center;
+    }
+    #hello {
+        width: 150px;
+    }
+    .lish {
+        float: left;
+        margin-left: 50px;
+    }
+    input {
+        margin: 20px 0px 10px 0px;
+    }
+    .lish #Skill {
+        margin-top: 15px;
+    }
+    .input {
+        margin-left: 0%;
+        margin-bottom: 10px;
+    }
+    .facebook, .ig, .twitter {
+        width: 32.5%;
+    }
+    .text {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+    html {
+        transform: rotate(-90deg);
+        overflow: hidden;
+      }
+}
